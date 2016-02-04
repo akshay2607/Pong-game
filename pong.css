@@ -1,0 +1,53 @@
+body{
+   font-family: 'Open Sans', sans-serif; 
+}
+
+#court{
+    background-color: #F2F2F2;
+    border: solid black;
+    display: inline-block;
+    height: 600px;
+    width: 1100px; 
+}
+
+#paddle{
+    height:119px;
+    left: 1000px;
+    margin: 0; 
+    padding: 0; 
+    position: relative;
+    width:26px;   
+}
+
+header{
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#ball{
+    margin: 0; 
+    padding: 0px; 
+    position: relative; 
+    top: 20px;
+    width:70px;
+}
+
+.speed{
+    display: inline-table;
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.speed label:nth-child(1){
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.speed label:last-child{
+    font-size: 16px;
+    font-weight: bold;
+}
